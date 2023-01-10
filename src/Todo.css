@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(128, 142, 145);
+    height: 100vh;
+}
+.centre{
+    /* display: inline-block; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    height:500px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius:1rem;
+   
+}
+.centre h1{
+    background: rgb(137, 54, 137);
+    color: white;
+    margin: 1rem 0;
+}
+.centre input{
+    width: 70%;
+    padding: .4rem .3rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 2px solid  rgb(137, 54, 137);
+    text-decoration: none;
+    outline: none;
+    
+
+}
+.centre .input-field button{    
+     padding-bottom:45px;
+     margin-left: 1rem;
+     /* margin-right: 10rem; */
+     font-size: 2.5rem;
+     border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background: rgb(137, 54, 137);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.centre button:hover{
+    background-color: green;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+.list-item{
+    text-align: left;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color:  rgb(137, 54, 137);
+}
+.list-item span{
+    display: flex;
+}
+.list-item span i{
+    color: white;
+    width: 2.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:  rgb(137, 54, 137);
+    margin-left: 1rem;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.list-item span i:hover{
+    background:red;
+}
+.list-item li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+    
+    justify-content: space-between;
+
+}
+
+.clear{
+    position: absolute;
+    left: 50%;
+    top:100%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: rgb(137, 54, 137);
+    padding: .3rem 1rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 1rem;
+}
+#clearbutton:hover{
+    background-color: red;
+    font-size: 1.6rem;
+}
